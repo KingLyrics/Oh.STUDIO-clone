@@ -1,6 +1,4 @@
 import Bean from "../bean.svg";
-import FadeIn from "react-fade-in/lib/FadeIn";
-
 export default function Footer() {
   return (
     <footer className="max-w-7xl font-Roboto mx-auto flex justify-between items-center pb-6">
@@ -30,7 +28,7 @@ export default function Footer() {
         </span>
         Shop
       </div>
-      
+
       <div className="space-x-3">
         <a href="">Twitter</a>
         <a href="">LinkedIn</a>
