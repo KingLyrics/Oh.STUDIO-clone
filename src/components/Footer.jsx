@@ -1,6 +1,4 @@
 import Bean from "../bean.svg";
-import FadeIn from "react-fade-in/lib/FadeIn";
-
 export default function Footer() {
   return (
     <footer className="max-w-7xl font-Roboto mx-auto flex justify-between items-center pb-6">
@@ -10,7 +8,7 @@ export default function Footer() {
         </div>
         <div>&copy; Ekomobong Edeme 2023</div>
       </div>
-      <div className="flex items-center bg-black text-white rounded-full py-3 px-4 fixed bottom-4 left-[48%] text-sm">
+      <div className="flex items-center bg-black text-white rounded-full py-3 px-4 fixed bottom-4 left-[48%] text-sm hover:cursor-pointer">
         {" "}
         <span>
           <svg
@@ -30,7 +28,7 @@ export default function Footer() {
         </span>
         Shop
       </div>
-      
+
       <div className="space-x-3">
         <a href="">Twitter</a>
         <a href="">LinkedIn</a>
