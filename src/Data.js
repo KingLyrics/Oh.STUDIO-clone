@@ -34,7 +34,7 @@ const CardBody = [
     id: 6,
     type: "video",
     videoUrl: "../src/Videos/pexels-rodnae-productions-7334800 (1080p).mp4",
-    title: "Apple society",
+    title: "Skating Boulevard",
   },
   {
     id: 7,
@@ -43,7 +43,7 @@ const CardBody = [
     title: "Swan Lake",
   },
   {
-    id: 7,
+    id: 8,
     type: "image",
     url: "../src/Images/pexels-s-migaj-953182.jpg",
     title: "Mountain Range",

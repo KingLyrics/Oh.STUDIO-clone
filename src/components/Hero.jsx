@@ -1,6 +1,9 @@
+
+
 export default function Hero() {
+
   return (
-    <div className="flex justify-center mt-72 flex-col items-center ">
+    <div className="flex justify-center mt-72 flex-col items-center">
       <p className="font-Poppins text-6xl w-[700px] text-center leading-snug">
         A brand and product designer working with clients globally
       </p>
