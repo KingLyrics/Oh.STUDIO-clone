@@ -8,7 +8,7 @@ export default function Footer() {
         </div>
         <div>&copy; Ekomobong Edeme 2023</div>
       </div>
-      <div className="flex items-center bg-black text-white rounded-full py-3 px-4 fixed bottom-4 left-[48%] text-sm">
+      <div className="flex items-center bg-black text-white rounded-full py-3 px-4 fixed bottom-4 left-[48%] text-sm hover:cursor-pointer">
         {" "}
         <span>
           <svg

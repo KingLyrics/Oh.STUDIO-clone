@@ -4,7 +4,7 @@ export default function Navbar() {
   const location = useLocation();
 
   return (
-    <nav className="max-w-[300px] mx-auto text-center fixed top-7 left-0 right-0 bg-SlateGray space-x-7 rounded-full py-3 font-Roboto font-[400] text-sm z-10">
+    <nav className="max-w-[300px] mx-auto text-center fixed top-7 left-0 right-0 space-x-7 py-3 font-Roboto font-[400] text-sm z-10 bg-OffGray backdrop-blur-lg bg-opacity-30 rounded-full">
       <Link
         to="/home"
         className={`${
