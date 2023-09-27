@@ -6,9 +6,15 @@ export default function Hero() {
       </p>
       <div className="mt-8 space-x-4">
         <a href="">Expertise</a>
-        <a href="" className="bg-SlateGray py-3 px-4 text-sm rounded-full">Branding</a>
-        <a href="" className="bg-SlateGray py-3 px-4 text-sm rounded-full">Product</a>
-        <a href="" className="bg-SlateGray py-3 px-4 text-sm rounded-full">Design Systems</a>
+        <a className="bg-SlateGray py-3 px-4 text-sm rounded-full hover:cursor-text">
+          Branding
+        </a>
+        <a className="bg-SlateGray py-3 px-4 text-sm rounded-full hover:cursor-text">
+          Product
+        </a>
+        <a className="bg-SlateGray py-3 px-4 text-sm rounded-full hover:cursor-text">
+          Design Systems
+        </a>
       </div>
     </div>
   );
