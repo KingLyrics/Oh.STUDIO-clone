@@ -8,7 +8,7 @@ export default function Navbar() {
   };
 
   return (
-    <nav className="max-w-[300px] mx-auto text-center fixed top-7 left-0 right-0 bg-SlateGray space-x-7 rounded-full py-3 font-Roboto font-[400] text-sm">
+    <nav className="max-w-[300px] mx-auto text-center fixed top-7 left-0 right-0 bg-SlateGray space-x-7 rounded-full py-3 font-Roboto font-[400] text-sm z-10">
       <a
         href=""
         className={
