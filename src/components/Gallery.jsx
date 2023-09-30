@@ -1,6 +1,7 @@
 /* eslint-disable react/no-unescaped-entities */
 import Card from "./Card";
 import ImageData from "../Data";
+import GetInTouch from "./GetInTouch";
 
 export default function Gallery() {
   return (
@@ -11,10 +12,7 @@ export default function Gallery() {
             <Card ImageData={image} key={image.id} />
           ))}
         </div>
-        <div className="mt-56 text-center font-Poppins pb-52 space-y-2">
-          <h1 className="text-black text-4xl">Let's work together.</h1>
-          <h2 className="text-OffGray text-3xl">Get in touch.</h2>
-        </div>
+       <GetInTouch/>
       </div>
     </div>
   );
