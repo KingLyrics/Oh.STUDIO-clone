@@ -52,6 +52,8 @@ This will start the development server, and you can access the website in your b
 
 - [Vite](https://vitejs.dev/): A fast build tool for modern web development.
 - [React](https://reactjs.org/): A JavaScript library for building user interfaces.
+- [Tailwindcss](https://tailwindcss.com): A CSS Frameework for building modern websities.
+- -[React-Router](https://reactrouter.com/en/main) : To handle routing.
 
 ## Contributing
 
