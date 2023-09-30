@@ -2,7 +2,6 @@
 
 This project is a clone of the OH.STUDIO website using Vite and React. OH.STUDIO is a creative studio website that showcases various projects, provides information about the team, and allows users to get in touch.
 
-![OH.STUDIO Clone](link_to_screenshot_or_gif)
 
 ## Table of Contents
 
