@@ -66,4 +66,3 @@ Once again, all rights reserved to the owners of the OH.STUDIO PAGE. I am just r
 
 ---
 
-**Note:** This README is a template. Please replace the placeholders with actual content relevant to your project.
