@@ -1,0 +1,66 @@
+const ExperienceData = [
+  {
+    id: 1,
+    yearStarted: "2012",
+    yearEnded: "Present",
+    companyName: "OH.STUDIO",
+    position: "Freelance Designer",
+    type: "Director",
+  },
+  {
+    id: 2,
+    yearStarted: "2021",
+    yearEnded: "2022",
+    companyName: "Friendly Studio",
+    position: "Lead Product Designer",
+    type: "Freelance",
+  },
+  {
+    id: 3,
+    yearStarted: "2023",
+    yearEnded: "Present",
+    companyName: "Netflix",
+    position: "Frontend Developer",
+    type: "Team Lead",
+  },
+  {
+    id: 4,
+    yearStarted: "2019",
+    yearEnded: "2021",
+    companyName: "Snapchat",
+    position: "Backend Developer",
+    type: "Intern",
+  },
+  {
+    id: 5,
+    yearStarted: "2016",
+    yearEnded: "2017",
+    companyName: "Facebook",
+    position: "Product Manager",
+    type: "Manager",
+  },
+  {
+    id: 6,
+    yearStarted: 2015,
+    yearEnded: null,
+    companyName: "Access Bank",
+    position: "FullStack Developer",
+    type: "Team Lead",
+  }, {
+    id: 7,
+    yearStarted: 2018,
+    yearEnded: null,
+    companyName: "Edeme.Industries",
+    position: "Web Developer",
+    type: "Team Lead",
+  }, {
+    id: 8,
+    yearStarted: 2016,
+    yearEnded: null,
+    companyName: "Recoil Academy",
+    position: "Frontend Developer",
+    type: "Intern",
+  },
+];
+
+export default ExperienceData;

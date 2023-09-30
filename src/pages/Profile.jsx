@@ -1,20 +1,11 @@
 /* eslint-disable react/no-unescaped-entities */
 import Navbar from "../components/Navbar";
 import FadeIn from "react-fade-in/lib/FadeIn";
+import ExperienceData from "../ExperienceData";
+import ExperienceView from "../components/ExperienceView";
 
-const ExperienceData = [
-  {
-    id: 1,
-    yearStarted: 2012,
-    yearEnded: "Present",
-    companyName: "OH.STUDIO",
-    position: "Freelance Designer",
-    type: "Director",
-  },
-];
 
 const Profile = () => {
- 
   return (
     <>
       <head>
@@ -31,7 +22,7 @@ const Profile = () => {
             <img src="../../src/Images/me2.jpg" className="" />
           </div>
         </div>
-        <div className=" mx-auto mt-64 mb-56">
+        <div className=" mx-auto mt-64 mb-28">
           <h1 className="bg-gray bg-SlateGray rounded-full text-center text-2xl w-20 mx-auto py-3 px-2">
             About
           </h1>
@@ -51,20 +42,38 @@ const Profile = () => {
           <h1 className="bg-gray bg-SlateGray rounded-full text-center text-2xl w-40 mx-auto py-3 px-2">
             Experience
           </h1>
-          <p className="text-center text-2xl font-Poppins max-w-3xl  leading-relaxed mx-auto mt-5">
+          <p className="text-center text-3xl font-Poppins max-w-3xl  leading-relaxed mx-auto mt-5 mb-24">
             Where I've worked
           </p>
         </div>
 
-        <div className="mt-10 max-w-md mx-auto pb-48">
-          <div className="grid grid-cols-3">
-          {/* component */}
-          <div className="flex flex-col text-center items-center">
-            <p className="text-OffGray">{ExperienceData[0].yearStarted} - {ExperienceData[0].yearEnded}</p>
-            <p className="mt-2 text-2xl font-Poppins">{ExperienceData[0].companyName}</p>
-          </div>
+        <div className="mt-10 max-w-6xl mx-auto pb-48">
+          <div className="grid grid-cols-3 gap-y-40">
+            {/* component */}
+            {ExperienceData.map((experience)=>(
+              <ExperienceView key={experience.id} experience={experience}/>
+            ))}
           </div>
         </div>
+
+        <div className=" mx-auto mt-32 mb-10">
+          <h1 className="bg-gray bg-SlateGray rounded-full text-center text-2xl w-40 mx-auto py-1 px-1">
+            Clients
+          </h1>
+          <p className="text-center text-3xl font-Poppins max-w-3xl  leading-relaxed mx-auto mt-5 mb-24">
+          Who I've Worked With
+          </p>
+        </div>
+        
+        <div className="mt-10 max-w-6xl mx-auto pb-48">
+          <div className="grid grid-cols-3 gap-y-40">
+            {/* component */}
+           
+          </div>
+        </div>
+
+
+
       </FadeIn>
     </>
   );
