@@ -3,6 +3,10 @@ import Navbar from "../components/Navbar";
 import FadeIn from "react-fade-in/lib/FadeIn";
 import ExperienceData from "../ExperienceData";
 import ExperienceView from "../components/ExperienceView";
+import LogosUrls from "../LogosUrls";
+import LogoView from "../components/LogoView";
+import GetInTouch from "../components/GetInTouch";
+import Bean from "../bean.svg";
 
 
 const Profile = () => {
@@ -50,8 +54,8 @@ const Profile = () => {
         <div className="mt-10 max-w-6xl mx-auto pb-48">
           <div className="grid grid-cols-3 gap-y-40">
             {/* component */}
-            {ExperienceData.map((experience)=>(
-              <ExperienceView key={experience.id} experience={experience}/>
+            {ExperienceData.map((experience) => (
+              <ExperienceView key={experience.id} experience={experience} />
             ))}
           </div>
         </div>
@@ -61,19 +65,33 @@ const Profile = () => {
             Clients
           </h1>
           <p className="text-center text-3xl font-Poppins max-w-3xl  leading-relaxed mx-auto mt-5 mb-24">
-          Who I've Worked With
+            Who I've Worked With
           </p>
         </div>
-        
-        <div className="mt-10 max-w-6xl mx-auto pb-48">
-          <div className="grid grid-cols-3 gap-y-40">
+
+        <div className="mt-10 max-w-6xl mx-auto pb-20">
+          <div className="grid grid-cols-4 gap-y-32 place-items-center">
             {/* component */}
-           
+            {LogosUrls.map((logo) => (
+              <LogoView url={logo} key={logo.id} />
+            ))}
           </div>
         </div>
 
-
-
+        <GetInTouch />
+        <footer className="max-w-7xl font-Roboto mx-auto flex justify-between items-center pb-6">
+      <div className="flex items-center space-x-2">
+        <div>
+          <img src={Bean} alt="" />
+        </div>
+        <div>&copy; Ekomobong Edeme 2023</div>
+      </div>
+      <div className="space-x-3">
+        <a href="">Twitter</a>
+        <a href="">LinkedIn</a>
+        <a href="">Mail</a>
+      </div>
+    </footer>
       </FadeIn>
     </>
   );

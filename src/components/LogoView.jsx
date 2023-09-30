@@ -1,8 +1,8 @@
-import React from 'react'
+/* eslint-disable react/prop-types */
 
-const LogoView = () => {
+const LogoView = ({url}) => {
   return (
-    <div>LogoView</div>
+    <img src={url.url} className="w-auto h-32"/>
   )
 }
 
