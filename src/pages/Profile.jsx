@@ -8,7 +8,6 @@ import LogoView from "../components/LogoView";
 import GetInTouch from "../components/GetInTouch";
 import Bean from "../bean.svg";
 
-
 const Profile = () => {
   return (
     <>
@@ -22,8 +21,8 @@ const Profile = () => {
         </div>
         <div className=" mx-auto max-w-4xl mt-10 mb-10">
           <div className="grid grid-cols-2 gap-40">
-            <img src="../../src/Images/me.jpg" className="" alt="" />
-            <img src="../../src/Images/me2.jpg" className="" />
+            <img src="./src/Images/me.jpg" className="" alt="" />
+            <img src="./src/Images/me2.jpg" className="" />
           </div>
         </div>
         <div className=" mx-auto mt-64 mb-28">
@@ -80,18 +79,18 @@ const Profile = () => {
 
         <GetInTouch />
         <footer className="max-w-7xl font-Roboto mx-auto flex justify-between items-center pb-6">
-      <div className="flex items-center space-x-2">
-        <div>
-          <img src={Bean} alt="" />
-        </div>
-        <div>&copy; Ekomobong Edeme 2023</div>
-      </div>
-      <div className="space-x-3">
-        <a href="">Twitter</a>
-        <a href="">LinkedIn</a>
-        <a href="">Mail</a>
-      </div>
-    </footer>
+          <div className="flex items-center space-x-2">
+            <div>
+              <img src={Bean} alt="" />
+            </div>
+            <div>&copy; Ekomobong Edeme 2023</div>
+          </div>
+          <div className="space-x-3">
+            <a href="">Twitter</a>
+            <a href="">LinkedIn</a>
+            <a href="">Mail</a>
+          </div>
+        </footer>
       </FadeIn>
     </>
   );

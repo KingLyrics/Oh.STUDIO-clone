@@ -8,15 +8,19 @@ export default function Navbar() {
       <Link
         to="/home"
         className={`${
-          location.pathname === "/home" ? "bg-white rounded-full py-3 px-6 -ml-7" : ""
-        }`}
+          location.pathname === "/home"
+            ? "bg-white rounded-full py-3 px-6 -ml-7"
+            : ""
+        } `}
       >
         Home
       </Link>
       <Link
         to="/profile"
         className={`${
-          location.pathname === "/profile" ? "bg-white rounded-full py-3 px-6 -ml-7" : ""
+          location.pathname === "/profile"
+            ? "bg-white rounded-full py-3 px-6 -ml-7"
+            : ""
         }`}
       >
         Profile
@@ -24,7 +28,9 @@ export default function Navbar() {
       <Link
         to="/contact"
         className={`${
-          location.pathname === "/contact" ? "bg-white rounded-full py-3 px-6 -ml-7" : ""
+          location.pathname === "/contact"
+            ? "bg-white rounded-full py-3 px-6 -ml-7"
+            : ""
         }`}
       >
         Contact

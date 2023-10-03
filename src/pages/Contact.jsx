@@ -21,9 +21,9 @@ const Contact = () => {
             <div>&copy; Ekomobong Edeme 2023</div>
           </div>
           <div className="space-x-3">
-            <a href="">Twitter</a>
-            <a href="">LinkedIn</a>
-            <a href="">Mail</a>
+            <a className="font-Roboto text-[100]">Twitter</a>
+            <a className="font-Roboto text-[100]">LinkedIn</a>
+            <a className="font-Roboto text-[100]">Mail</a>
           </div>
         </footer>
     </div>
