@@ -21,8 +21,8 @@ const Profile = () => {
         </div>
         <div className=" mx-auto max-w-4xl mt-10 mb-10">
           <div className="grid grid-cols-2 gap-40">
-            <img src="/src/Images/me.jpg" className="" alt="" />
-            <img src="/src/Images/me2.jpg" className="" />
+            <img src="../static/Images/me.jpg" className="" alt="" />
+            <img src="../static/Images/me2.jpg" className="" />
           </div>
         </div>
         <div className=" mx-auto mt-64 mb-28">

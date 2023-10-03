@@ -5,7 +5,7 @@ const LogosUrls = [
   { id: 4, url: "../static/Images/Logos/Uber Eats.svg" },
   { id: 5, url: "../static/Images/Logos/F1 Formula 1.svg" },
   { id: 6, url: "../static/Images/Logos/Discord new 2021.svg" },
-  { id: 7, url: "../static/Images/PlayStation.svg" },
+  { id: 7, url: "../static/Images/Logos/PlayStation.svg" },
   { id: 8, url: "../static/Images/Logos/Samsung.svg" },
 ];
 
