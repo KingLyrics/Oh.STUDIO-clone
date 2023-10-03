@@ -14,7 +14,7 @@ This project is a clone of the OH.STUDIO website using Vite and React. OH.STUDIO
 
 ## Demo
 
-Project isn't live yet...
+Project is  live on: https://oh-studio-clone-mocha.vercel.app/
 
 ## Installation
 
