@@ -26,14 +26,15 @@ const CardBody = [
   {
     id: 5,
     type: "video",
-    videoUrl: "../static/Videos/production_id_4062021 (1080p) 2.mp4",
+    videoUrl: "../static/Images/Videos/production_id_4062021 (1080p) 2.mp4",
     title: "Apple society",
   },
 
   {
     id: 6,
     type: "video",
-    videoUrl: "../static/Videos/pexels-rodnae-productions-7334800 (1080p).mp4",
+    videoUrl:
+      "../static/Images/Videos/pexels-rodnae-productions-7334800 (1080p).mp4",
     title: "Skating Boulevard",
   },
   {
