@@ -8,8 +8,8 @@ export default function App() {
     <Routes>
       <Route index element={<Home />}></Route>
       <Route path="/home" element={<Home />}></Route>
-      <Route path="/profile" element={<Profile/>}></Route>
-      <Route path="/contact" element={<Contact/>}></Route>
+      <Route path="/profile" element={<Profile />}></Route>
+      <Route path="/contact" element={<Contact />}></Route>
     </Routes>
   );
 }
