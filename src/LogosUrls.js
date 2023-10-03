@@ -6,7 +6,7 @@ const LogosUrls = [
   // { id: 5, url: "src/Images/Logos/F1 Formula 1.svg" },
   // { id: 6, url: "src/Images/Logos/Discord new 2021.svg" },
   // { id: 7, url: "src/Images/Logos/PlayStation.svg" },
-  { id: 8, url: "../public/static/Images/Logos/Samsung.svg" },
+  { id: 8, url: "../static/Images/Logos/Samsung.svg" },
 ];
 
 export default LogosUrls;
